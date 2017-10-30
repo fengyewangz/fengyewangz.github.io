@@ -73,7 +73,6 @@ label {
 }
 /* Header */
 #head {
-	/*background: #181015 url( ../images/bg_header.jpg) no-repeat;*/
 	background-size: cover;
 	height: 600px;
 	text-align: center;
@@ -228,7 +227,7 @@ ul, .list.custom-list ul {
 .thumbnail .caption:hover {
 }
 .thumbnail .caption a {
-	font: 20px;
+	font: 20px 'Roboto', sans-serif;
 }
 .slideUp {
 	top: -100px;
@@ -498,7 +497,7 @@ footer {
 /* carousel */
 #quote-carousel {
 	padding: 0 10px 30px 10px;
-	margin-top: 30px 0px 0px;
+	margin-top: 30px;
 }
 /* Control buttons  */
 #quote-carousel .carousel-control {
@@ -626,7 +625,7 @@ nav#filter a.current {
 	width: 100%;
 	left: 0;
 	top: 0;
-	color: rgba(220, 220, 220);
+	color: rgba(220, 220, 220, 1);
 }
 .fancybox-overlay {
 	background: rgba(0, 0, 0, 0.64);
